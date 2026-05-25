@@ -1,0 +1,6 @@
+charger_id,vehicle_id,status,requested_kw,energy_kwh,start_hour,priority
+CP-01,EV-101,charging,22,18.5,18,alta
+CP-02,EV-205,charging,30,25.1,19,normal
+CP-03,EV-333,waiting,11,9.8,20,baixa
+CP-04,-,available,0,0,12,normal
+CP-05,EV-410,charging,22,31.2,21,normal
