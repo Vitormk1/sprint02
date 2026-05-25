@@ -100,43 +100,49 @@ chargegrid-intelligence-sprint2/
 
 ## 6. Como executar
 
-### 6.1 Criar ambiente virtual
+> Observação: este projeto foi desenvolvido e testado utilizando **Python 3.12**.  
+> Recomenda-se usar essa versão para evitar erros na instalação das dependências.
+
+### 6.1 Verificar a versão do Python
 
 ```bash
-python -m venv venv
-```
+python --version
 
-### 6.2 Ativar ambiente virtual
+No Windows, também é possível verificar as versões instaladas com:
 
-No Windows:
+py -0p
+6.2 Criar ambiente virtual
 
-```bash
-venv\Scripts\activate
-```
+No Windows, utilizando Python 3.12:
+
+py -3.12 -m venv venv
 
 No Linux/Mac:
 
-```bash
+python3.12 -m venv venv
+6.3 Ativar ambiente virtual
+
+No Windows:
+
+venv\Scripts\activate
+
+Ou, no PowerShell:
+
+.\venv\Scripts\Activate.ps1
+
+No Linux/Mac:
+
 source venv/bin/activate
-```
-
-### 6.3 Instalar dependências
-
-```bash
+6.4 Atualizar ferramentas de instalação
+python -m pip install --upgrade pip setuptools wheel
+6.5 Instalar dependências
 pip install -r requirements.txt
-```
-
-### 6.4 Rodar a aplicação
-
-```bash
-streamlit run app.py
-```
+6.6 Rodar a aplicação
+python -m streamlit run app.py
 
 Depois de executar, o terminal exibirá um link local parecido com:
 
-```text
 http://localhost:8501
-```
 
 Acesse esse endereço no navegador para visualizar o dashboard.
 
