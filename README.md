@@ -107,42 +107,71 @@ chargegrid-intelligence-sprint2/
 
 ```bash
 python --version
+```
 
 No Windows, também é possível verificar as versões instaladas com:
 
+```bash
 py -0p
-6.2 Criar ambiente virtual
+```
+
+### 6.2 Criar ambiente virtual
 
 No Windows, utilizando Python 3.12:
 
+```bash
 py -3.12 -m venv venv
+```
 
 No Linux/Mac:
 
+```bash
 python3.12 -m venv venv
-6.3 Ativar ambiente virtual
+```
+
+### 6.3 Ativar ambiente virtual
 
 No Windows:
 
+```bash
 venv\Scripts\activate
+```
 
 Ou, no PowerShell:
 
+```bash
 .\venv\Scripts\Activate.ps1
+```
 
 No Linux/Mac:
 
+```bash
 source venv/bin/activate
-6.4 Atualizar ferramentas de instalação
+```
+
+### 6.4 Atualizar ferramentas de instalação
+
+```bash
 python -m pip install --upgrade pip setuptools wheel
-6.5 Instalar dependências
+```
+
+### 6.5 Instalar dependências
+
+```bash
 pip install -r requirements.txt
-6.6 Rodar a aplicação
+```
+
+### 6.6 Rodar a aplicação
+
+```bash
 python -m streamlit run app.py
+```
 
 Depois de executar, o terminal exibirá um link local parecido com:
 
+```text
 http://localhost:8501
+```
 
 Acesse esse endereço no navegador para visualizar o dashboard.
 
