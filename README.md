@@ -103,18 +103,6 @@ chargegrid-intelligence-sprint2/
 > Observação: este projeto foi desenvolvido e testado utilizando **Python 3.12**.  
 > Recomenda-se usar essa versão para evitar erros na instalação das dependências.
 
-### 6.1 Verificar a versão do Python
-
-```bash
-python --version
-```
-
-No Windows, também é possível verificar as versões instaladas com:
-
-```bash
-py -0p
-```
-
 ### 6.2 Criar ambiente virtual
 
 No Windows, utilizando Python 3.12:
