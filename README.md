@@ -89,10 +89,6 @@ chargegrid-intelligence-sprint2/
 ├── .gitignore
 ├── data/
 │   └── sample_sessions.csv
-├── docs/
-│   ├── arquitetura.md
-│   ├── roteiro_video.md
-│   └── kanban_tarefas.csv
 └── src/
     ├── __init__.py
     ├── simulator.py
